@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&family=Roboto:wght@300&display=swap' rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+
+    <div class="container">
+        <h1 class="text-center my-3">todos</h1>
+        <form class="card p-3 shadow-lg border-o">
+            <div class="mb-3">
+                <input id="taskname" type="text" class="task-name form-control border-o fst-italic ps-5" placeholder="What needs to be done?">
+            </div>
+            <div class="mb-3">
+                <ul class="list-group shadow">
+                    <li class="list-group-item">
+                        <div class="form-check">
+                            <input class="form-check-input rounded-circle" type="checkbox" value="1" id="flexCheck1" checked>
+                            <label class="form-check-label" for="flexCheck1">
+                                Task 1
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="form-check">
+                            <input class="form-check-input rounded-circle" type="checkbox" value="2" id="flexCheck2">
+                            <label class="form-check-label" for="flexCheck2">
+                                Task 2
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="form-check">
+                            <input class="form-check-input rounded-circle" type="checkbox" value="3" id="flexCheck3">
+                            <label class="form-check-label" for="flexCheck3">
+                                Task 3
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="form-check">
+                            <input class="form-check-input rounded-circle" type="checkbox" value="4" id="flexCheck4">
+                            <label class="form-check-label" for="flexCheck4">
+                                Task 4
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="form-check">
+                            <input class="form-check-input rounded-circle" type="checkbox" value="5" id="flexCheck5">
+                            <label class="form-check-label" for="flexCheck5">
+                                Task 5
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-auto text-muted">4 items left</div>
+                <div class="col-auto">
+                    <button id="filter-all" class="btn btn-outline-primary" type="button">All</button>
+                    <button id="filter-active" class="btn" type="button">Active</button>
+                    <button id="filter-complete" class="btn" type="button">Complete</button>
+                </div>
+                <div class="col-auto"></div>
+            </div>
+            <div class="card-panel-decor shadow-lg"></div>
+            <div class="card-panel-decor shadow-lg"></div>
+        </form>
+    </div>
+</body>
+</html>
